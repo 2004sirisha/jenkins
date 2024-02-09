@@ -1,2 +1,6 @@
 @Library("my-shared-library") _
-arjun()
+
+environment {
+  BRANCH="master"
+}
+arjun(branch_name: env.BRANCH)
