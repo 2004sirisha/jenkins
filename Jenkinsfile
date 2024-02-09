@@ -6,7 +6,4 @@ environment {
   BASE_URL="https://gitbucket.com/"
 }
 echo "Debug: BRANCH = ${BRANCH}, PROJECT_NAME = ${PROJECT_NAME}, BASE_URL = ${BASE_URL}"
-arjun(branch_name: ${BRANCH},
-     project_name: {ROJECT_NAME},
-     base_url: ${BASE_URL}
-     )
+arjun("${BRANCH}","{ROJECT_NAME},""${BASE_URL}")
