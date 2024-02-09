@@ -5,7 +5,7 @@ environment {
     PROJECT_NAME = "myproject"
     BASE_URL = "https://gitbucket.com/"
 }
-def branch_name = "${env.BRANCH}"
+def branch_name = ${BRANCH}
 // def branch_name = "master"
 def project_name = "myproject"
 def base_url = "https://gitbucket.com/"
