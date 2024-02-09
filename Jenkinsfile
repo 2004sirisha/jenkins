@@ -1,9 +1,9 @@
 @Library("my-shared-library") _
 
 environment {
-  BRANCH = "master"
-  PROJECT_NAME = "myproject"
-  BASE_URL = "https://gitbucket.com/"
+    BRANCH = "master"
+    PROJECT_NAME = "myproject"
+    BASE_URL = "https://gitbucket.com/"
 }
 def branch_name = "${env.BRANCH}"
 // def branch_name = "master"
