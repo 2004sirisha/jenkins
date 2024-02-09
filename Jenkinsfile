@@ -5,8 +5,9 @@ environment {
     PROJECT_NAME = "myproject"
     BASE_URL = "https://gitbucket.com/"
 }
-def branch_name = ${BRANCH}
-// def branch_name = "master"
-def project_name = "myproject"
-def base_url = "https://gitbucket.com/"
-arjun(BRANCH, PROJECT_NAME, BASE_URL)
+
+def branch_name = env.BRANCH
+def project_name = env.PROJECT_NAME
+def base_url = env.BASE_URL
+
+arjun(branch_name, project_name, base_url)
