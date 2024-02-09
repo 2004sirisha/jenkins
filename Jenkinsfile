@@ -5,4 +5,4 @@ environment {
   PROJECT_NAME = "myproject"
   BASE_URL = "https://gitbucket.com/"
 }
-arjun(branch_name: "${BRANCH}", project_name: "${ROJECT_NAME}", base_url: "${BASE_URL}")
+arjun(branch_name: "master", project_name: "myproject", base_url: "https://gitbucket.com/")
