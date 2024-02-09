@@ -9,4 +9,4 @@ def branch_name = ${BRANCH}
 // def branch_name = "master"
 def project_name = "myproject"
 def base_url = "https://gitbucket.com/"
-arjun(branch_name, project_name, base_url)
+arjun(BRANCH, PROJECT_NAME, BASE_URL)
